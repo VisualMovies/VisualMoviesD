@@ -39,7 +39,7 @@ files = glob.glob(ppath)
 
 async def Deendayal_start():
     print('\n')
-    print('\nInitalizing Deendayal_Botz')
+    print('\nInitalizing VisualMoviesBot')
     await DeendayalBot.start()
     bot_info = await DeendayalBot.get_me()
     DeendayalBot.username = bot_info.username
