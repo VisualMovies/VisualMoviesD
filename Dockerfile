@@ -4,7 +4,7 @@ RUN apt update && apt upgrade -y && \
     apt install -y --no-install-recommends git && \
     rm -rf /var/lib/apt/lists/*
 
-WORKDIR /Deendayal_botz
+WORKDIR /VisualMoviesD
 
 COPY requirements.txt ./
 RUN pip install --no-cache-dir --upgrade pip --root-user-action=ignore && \
