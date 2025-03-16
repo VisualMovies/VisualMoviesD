@@ -1,4 +1,4 @@
-#Thanks @dreamcinezone for helping in this journey 
+#Thanks @VisualMovies for helping in this journey 
 
 import jinja2
 from info import *
